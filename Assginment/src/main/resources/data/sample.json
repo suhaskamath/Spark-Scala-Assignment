@@ -1,0 +1,81 @@
+{
+  "EVENTPAYLOADINJSON": {
+    "EVENT_NAME": "S2F_BWKL_RCR_CURRENTACTION",
+    "PROCESS_NAME": "S2F_BWKL_RCR_CURRENTACTION",
+    "EVENT_DETAILS": {
+      "PROCESS_NAME": "S2F_BWKL_RCR_CURRENTACTION",
+      "ENV_CODE": "GENERIC",
+      "DATACENTER": "RENO",
+      "LAST_SOURCE_EXTRACT": "0,8585#2,8589#1,8603",
+      "BATCH_DETAILS": [
+        {
+          "SUB_PROCESS_NAME": "S2F_BWKL_RCR_CURRENTACTION",
+          "BATCH_SK": 909055155,
+          "PROCESS_RUN_SK": 909055155,
+          "TARGET_BATCH_SK": 909055155,
+          "ORIGIN_ENV_CD": "GENERIC",
+          "START_TS": "2018-11-09 17:11:22.723",
+          "END_TS": "2018-11-09 17:11:22.838",
+          "ROWS_ADDED_COUNT": 0,
+          "ROWS_UPDATED_COUNT": 0,
+          "ROWS_DELETED_COUNT": 0,
+          "ROWS_SKIPPED_COUNT": 0,
+          "ROWS_DUPLICATE_COUNT": 0,
+          "ORIGIN_PROCESS_NAME": "S2F_BWKL_RCR_CURRENTACTION",
+          "HOST_NAME": "RN-EDWETLT-LAPP140",
+          "DATA_FILE_DETAILS": {
+            "DATA_FILE_PATH": "NFSRENO/STORM/CSX_CASE/06",
+            "DATA_FILE_ATTRIBUTES": [
+              {
+                "DATA_FILE_NAME": "bwkl_it_rcr_current_action_909051530.out.gz",
+                "COMPRESSED_FILE_SIZE": 20,
+                "FILE_SIZE": 0,
+                "FILE_CHECKSUM": "1820041529"
+              },
+                            {
+                "DATA_FILE_NAME": "bwkl2_it_rcr_current_action_909051530.out.gz",
+                "COMPRESSED_FILE_SIZE": 20,
+                "FILE_SIZE": 0,
+                "FILE_CHECKSUM": "1820041529"
+              }
+            ]
+          }
+        }
+      ],
+      "PROCESS_STATUS": "COMPLETED",
+      "TARGET_ENTITY_NAME": "bwkl_it_rcr_current_action",
+      "ENQUEUED_PROCESS_INFO": [
+        {
+          "NAME": "F2S_BWKL_RCR_CURRENTACTION",
+          "ENV_CODE": "EDWIN",
+          "PROCESS_CATEGORY": "CORE_ETL",
+          "PROCESS_SUB_CATEGORY": "F2S",
+          "DATACENTER": "RENO",
+          "ESPRESSO_PROCESS_NAME": null,
+          "FAILURE_PRIORITY": null,
+          "SLEEP_TIME": "60",
+          "MAX_SLA_WAIT_SECONDS": "300",
+          "JOB_TYPE": "AUTOSYS"
+        },
+        {
+          "NAME": "F2S_BWKL_RCR_CURRENTACTION",
+          "ENV_CODE": "MEGADEW",
+          "PROCESS_CATEGORY": "CORE_ETL",
+          "PROCESS_SUB_CATEGORY": "F2S",
+          "DATACENTER": "RENO",
+          "ESPRESSO_PROCESS_NAME": null,
+          "FAILURE_PRIORITY": null,
+          "SLEEP_TIME": "60",
+          "MAX_SLA_WAIT_SECONDS": "300",
+          "JOB_TYPE": "AUTOSYS"
+        }
+      ],
+      "APPLICATION": {
+        "OWNER": "CORE-ETL",
+        "SOURCE": "CSX_CASE",
+        "TARGET": "CSX_CASE"
+      }
+    }
+  },
+  "UUID": "1d302d8b-1671-4f42-a5e9-5502c3cb6536"
+}
